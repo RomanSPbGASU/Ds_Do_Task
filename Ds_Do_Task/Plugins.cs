@@ -8,7 +8,7 @@ namespace ds.test.impl
     // But what is profit of it? We only spare the object's size in memory and avoid allocating it on a heap.
     
     /// <summary>
-    /// 
+    /// Plugins factory
     /// </summary>
     public class Plugins: PluginFactory
     {
