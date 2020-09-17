@@ -8,7 +8,7 @@
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Ds_Do_Task</RootNamespace>
-        <AssemblyName>Ds_Do_Task</AssemblyName>
+        <AssemblyName>lib</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
@@ -30,6 +30,7 @@
         <DefineConstants>TRACE</DefineConstants>
         <ErrorReport>prompt</ErrorReport>
         <WarningLevel>4</WarningLevel>
+        <DocumentationFile>bin\Release\lib.xml</DocumentationFile>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="System" />
@@ -39,12 +40,13 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Adding.cs" />
+        <Compile Include="Addition.cs" />
         <Compile Include="PluginAbstract.cs" />
         <Compile Include="Plugins.cs" />
         <Compile Include="IPlugin.cs" />
         <Compile Include="PluginFactory.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Subtraction.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="README.md" />
