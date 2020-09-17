@@ -4,10 +4,9 @@ namespace ds.test.impl
 {
     internal class Subtraction: PluginAbstract, IPlugin
     {
-        public string PluginName { get; }
-        public string Version { get; }
-        public Image Image { get; }
-        public string Description { get; }
+        public string PluginName => "Subtraction";
+        public Image Image => Image.FromFile("../../Assets/Minus.png");
+        public string Description => "The object that implements the subtraction";
 
         /// <summary>
         /// Returns the difference of two integer numbers
