@@ -2,7 +2,7 @@
 
 namespace ds.test.impl
 {
-    internal class Addition: IPlugin
+    internal class Addition: PluginAbstract, IPlugin
     {
         public string PluginName { get; }
         public string Version { get; }
