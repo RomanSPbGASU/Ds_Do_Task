@@ -6,7 +6,7 @@ namespace ds.test.impl
     internal class Addition: PluginAbstract, IPlugin
     {
         public string PluginName => "Addition";
-        public Image Image => Image.FromFile("../../Assets/Plus.png");
+        public Image Image => Image.FromFile("Assets/Plus.png");
         public string Description => "The object that implements the addition";
         
         /// <summary>

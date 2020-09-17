@@ -5,7 +5,7 @@ namespace ds.test.impl
     internal class Subtraction: PluginAbstract, IPlugin
     {
         public string PluginName => "Subtraction";
-        public Image Image => Image.FromFile("../../Assets/Minus.png");
+        public Image Image => Image.FromFile("Assets/Minus.png");
         public string Description => "The object that implements the subtraction";
 
         /// <summary>

@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Runtime.InteropServices;
+using System.Drawing;
 using NUnit.Framework;
 using ds.test.impl;
 
@@ -39,6 +39,16 @@ namespace TaskTests
         {
             Assert.AreEqual(_subtracting.Run(5, 8), 5 - 8);
             Assert.Throws<OverflowException>(() => _subtracting.Run(int.MinValue, 1));
+        }
+
+        [Test]
+        public void TestImage()
+        {
+            var additionImageSize = _adding.Image.Size;
+            var c = _adding.Image.Size;
+            var zeroSize = new Size(0, 0);
+            Assert.AreNotEqual(additionImageSize, zeroSize);
+            Assert.AreNotEqual(additionImageSize, zeroSize);
         }
     }
 }
