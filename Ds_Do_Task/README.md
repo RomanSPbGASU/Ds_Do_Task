@@ -1,5 +1,5 @@
 ﻿Example of a test task for an interview  
-It's description is written below in Russian
+Its description is written below in Russian
 
 >Задание поступило с космического корабля, с которым нет больше связи и ответить на Ваши вопросы экипаж не сможет. Мы можем только переслать им результат Вашей работы. На все возникшие вопросы используйте своё воображение. 
 >
